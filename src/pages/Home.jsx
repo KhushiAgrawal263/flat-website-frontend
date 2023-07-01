@@ -13,7 +13,7 @@ export default function Home() {
         </div>
 
         {/* // vertical line */}
-        <div className="vertical"></div>
+        <div className="vertical-h"></div>
 
         <div className="home1-right">
           <div className="image2">
