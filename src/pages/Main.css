@@ -45,14 +45,14 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
-  background: rgba(17, 17, 118, 0.705);
+  background: #ffc0cb;
 }
 
 .sub-div {
   /* display: flex; */
   height: fit-content;
   width: 98%;
-  background-color: rgba(232, 229, 229, 0.977);
+  background-color: rgba(252, 239, 239, 0.977);
   margin-top: 2rem;
   justify-content: center;
   align-items: center;

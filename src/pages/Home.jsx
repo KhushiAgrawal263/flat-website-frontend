@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 export default function Home() {
@@ -8,8 +8,15 @@ export default function Home() {
       <div className="home1">
         <div className="home1-left">
           <div className="image1">
-            <Link to='/venue'><p>Venue</p></Link>
+            <Link to="/venue">
+              {" "}
+              <img src="Image/v1.jpg" alt="" />{" "}
+            </Link>
+            <div class="fadedbox">
+              <div class="text"> Book Now </div>
+            </div>
           </div>
+          <div className="title">Venue</div>
         </div>
 
         {/* // vertical line */}
@@ -17,8 +24,9 @@ export default function Home() {
 
         <div className="home1-right">
           <div className="image2">
-            <Link to="/event"><p>Event Manager</p></Link>
+            <img src="Image/v1.jpg" alt="" />
           </div>
+          <div className="title">Event Manager</div>
         </div>
       </div>
     </div>
