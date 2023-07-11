@@ -4,7 +4,7 @@ import {FaBars} from 'react-icons/fa';
 import { Link as LinkS } from "react-scroll";
 
 export const Nav=styled.nav`
-    background:#000;
+    background:#a3a3a2;
     height: 80px;
     /* margin-top:-80px; */
     display:flex;

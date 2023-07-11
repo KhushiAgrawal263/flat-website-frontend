@@ -24,7 +24,7 @@ export default function Home() {
 
         <div className="home1-right">
           <div className="image2">
-            <img src="Image/v1.jpg" alt="" />
+            <img src="Image/m.jpg" alt="" />
           </div>
           <div className="title">Event Manager</div>
         </div>
